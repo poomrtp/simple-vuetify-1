@@ -19,20 +19,13 @@
             dense
           ></v-text-field>
         </div>
-        <!-- <v-text-field
-          solo
-          label="Prepend inner"
-          prepend-inner-icon="mdi-map-marker"
-          dense
-          class="mt-6"
-        ></v-text-field> -->
 
         <v-btn to="/">
           <v-icon>mdi-home-outline</v-icon><span>Home</span>
         </v-btn>
         <router-link to="/contact" tag="span" style="cursor: pointer">
           <v-icon>mdi-account-box-outline</v-icon>
-          <span>Contact</span>
+          Contact
         </router-link>
 
         <v-btn icon>
